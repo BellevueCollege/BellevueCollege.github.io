@@ -24,6 +24,13 @@
         text-align: center;
       }
 
+      div#left-column {
+        float: left;
+        width: 70%;
+      }
+
+      div#description {
+      }
       div.section {
       }
       div.section h3 {
@@ -32,7 +39,7 @@
         color: white;
         margin-top: 1px;
       }
-      
+
       div#core-values {
         float: left;
       }
@@ -68,74 +75,87 @@
         Technology Development and Communication
       </h2>
       
-      <div id="core-values" class="section">
-        <h3>Core values</h3>
-        
-        <div id="core-value">
-          <h4 class="title">Transparency over Secrecy</h4>
-          <ul>
-            <li>Project status is publicly available</li>
-            <li>Bugs can be publicly submitted and viewed</li>
-            <li>Documentation is available when it does not pose a security risk</li>
-            <li>Future plans/goals are clearly documented and publicly available</li>
-          </ul>
+      <div id="left-column">
+        <div id="description" class="section">
+          <h3>Who we are</h3>
+          <p>
+            The department of <strong>Technology Development &amp; Communication</strong> (<a href="http://ddg.gg/?q=colloquially+!di">colloquially</a>
+            known as <em>DevCom</em>) is responsible for designing, implementing and maintaining technology-related solutions which improve the
+            experiences of students, faculty, staff and the general public who use college services. We are part of the <strong>Information
+            Services</strong> division, which oversees the college's technology plan and resources.
+          </p>
         </div>
         
-        <div id="core-value">
-          <h4 class="title">External Collaboration over Isolation</h4>
-          <ul>
-            <li>External entities outside of the team can use and interact with our tool-set</li>
-            <li>Bugs can be assigned to and resolved by external entities as needed</li>
-            <li>Source code management can be interacted with externally as needed</li>
-            <li>Documentation can be contributed to externally as needed</li>
-          </ul>
+        <div id="core-values" class="section">
+          <h3>Core values</h3>
+          
+          <div id="core-value">
+            <h4 class="title">Transparency over Secrecy</h4>
+            <ul>
+              <li>Project status is publicly available</li>
+              <li>Bugs can be publicly submitted and viewed</li>
+              <li>Documentation is available when it does not pose a security risk</li>
+              <li>Future plans/goals are clearly documented and publicly available</li>
+            </ul>
+          </div>
+          
+          <div id="core-value">
+            <h4 class="title">External Collaboration over Isolation</h4>
+            <ul>
+              <li>External entities outside of the team can use and interact with our tool-set</li>
+              <li>Bugs can be assigned to and resolved by external entities as needed</li>
+              <li>Source code management can be interacted with externally as needed</li>
+              <li>Documentation can be contributed to externally as needed</li>
+            </ul>
+          </div>
+          
+          <div id="core-value">
+            <h4 class="title">Modularity Architecture over Monolithic</h4>
+            <ul>
+              <li>Tools focus on a specific function</li>
+              <li>Tools can integrate with other tool sets</li>
+              <li>Tools provide functionality that allows them to be extended</li>
+            </ul>
+          </div>
+          
+          <div id="core-value">
+            <h4 class="title">Agile Software Development Methods over Others</h4>
+            <ul>
+              <li>Individuals and interactions over processes and tools</li>
+              <li>Working software over comprehensive documentation</li>
+              <li>Customer collaboration over contract negotiation</li>
+              <li>
+                Collaboration-driven design over Research-driven design
+                (<a href="http://www.andersramsay.com/2012/04/24/agile-ux-vs-lean-ux/">Agile UX vs Lean UX</a>)
+              </li>
+              <li>Responding to change over following a plan</li>
+            </ul>
+          </div>
+          
+          <div id="core-value">
+            <h4 class="title">Technological Diversity over Conforming</h4>
+            <ul>
+              <li>Tools provide platform equality</li>
+              <li>Platform does not dictate tools</li>
+              <li>Tools do not dictate platform</li>
+            </ul>
+          </div>
+          
+          <div id="core-value">
+            <h4 class="title">Internet Accessible over Internally Secure</h4>
+            <ul>
+              <li>Tools and environments are accessible directly from the Internet vs requiring VPN whenever possible</li>
+            </ul>
+          </div>
+          
         </div>
-        
-        <div id="core-value">
-          <h4 class="title">Modularity Architecture over Monolithic</h4>
-          <ul>
-            <li>Tools focus on a specific function</li>
-            <li>Tools can integrate with other tool sets</li>
-            <li>Tools provide functionality that allows them to be extended</li>
-          </ul>
-        </div>
-        
-        <div id="core-value">
-          <h4 class="title">Agile Software Development Methods over Others</h4>
-          <ul>
-            <li>Individuals and interactions over processes and tools</li>
-            <li>Working software over comprehensive documentation</li>
-            <li>Customer collaboration over contract negotiation</li>
-            <li>
-              Collaboration-driven design over Research-driven design
-              (<a href="http://www.andersramsay.com/2012/04/24/agile-ux-vs-lean-ux/">Agile UX vs Lean UX</a>)
-            </li>
-            <li>Responding to change over following a plan</li>
-          </ul>
-        </div>
-        
-        <div id="core-value">
-          <h4 class="title">Technological Diversity over Conforming</h4>
-          <ul>
-            <li>Tools provide platform equality</li>
-            <li>Platform does not dictate tools</li>
-            <li>Tools do not dictate platform</li>
-          </ul>
-        </div>
-        
-        <div id="core-value">
-          <h4 class="title">Internet Accessible over Internally Secure</h4>
-          <ul>
-            <li>Tools and environments are accessible directly from the Internet vs requiring VPN whenever possible</li>
-          </ul>
-        </div>
-        
       </div>
       
       <div id="see-also" class="section">
         <h3>See also</h3>
         <ul>
-          <li>The <a href="https://github.com/BellevueCollege/BellevueCollege.github.io/wiki">department Knowledge Base</a> (wiki).</li>
+          <li>Our <a href="https://github.com/BellevueCollege/BellevueCollege.github.io/wiki">Knowledge Base</a> (wiki).</li>
+          <li><a href="https://github.com/BellevueCollege/">Our shared software</a></li>.
         </ul>
       </div>
     </div>
